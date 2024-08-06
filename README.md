@@ -6,6 +6,7 @@ If any errors persis run PowerShell with Admin priveledges to update packages su
 Flask
 Flask-cors
 Flask-Talisman
+Flake8
 
 ![Build Status](https://github.com/daryland/devops-capstone-project/actions/workflows/ci-build.yaml/badge.svg)
 
