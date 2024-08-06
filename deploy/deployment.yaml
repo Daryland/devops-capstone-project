@@ -21,7 +21,6 @@ spec:
       - image: us.icr.io/sn-labs-rylandcs/accounts:1
         name: accounts
         resources: {}
-        
         env:
           - name: DATABASE_HOST
             value: postgresql
@@ -40,6 +39,11 @@ spec:
               secretKeyRef:
                 name: postgresql
                 key: database-user
-                
+                spec:
+    template:
+      spec:
+        containers:
+        - image: IMAGE_NAME_HERE
+          name: accounts
 status: {}
 
