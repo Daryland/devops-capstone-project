@@ -39,7 +39,7 @@ class TestAccountService(TestCase):
     @classmethod
     def setUpClass(cls):
         """Run once before all tests"""
-        { other lines of code here ... }
+        cls.client = app.test_client()
         talisman.force_https = False
 
     def test_security_headers(self):
