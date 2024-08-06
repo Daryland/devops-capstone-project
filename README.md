@@ -1,8 +1,13 @@
 # DevOps Capstone Template
 
+## Updating
+
+If any errors persis run PowerShell with Admin priveledges to update packages such as 
+Flask
+Flask-cors
+Flask-Talisman
 
 ![Build Status](https://github.com/daryland/devops-capstone-project/actions/workflows/ci-build.yaml/badge.svg)
-
 
 [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 [![Python 3.9](https://img.shields.io/badge/Python-3.9-green.svg)](https://shields.io/)
